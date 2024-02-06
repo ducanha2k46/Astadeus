@@ -8,9 +8,12 @@
     "ai21/j1-grande":"20001",
     "ai21/j1-jumbo":"20000",
 
-    "textsynth/gptj_6B":"60002",
-    "textsynth/fairseq_gpt_13B":"60001",
-    "textsynth/gptneox_20B":"60000",
+    "textsynth/gptj_6B":"60005",
+    "textsynth/fairseq_gpt_13B":"60004",
+    "textsynth/gptneox_20B":"60003",
+    "textsynth/mistral_7B":"60002",
+    "textsynth/llama2_7B":"60001",
+    "textsynth/llama2_70B":"60000",
 
     "cohere/xlarge":"30000", 
     "cohere/medium":"30001"            

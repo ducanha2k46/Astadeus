@@ -22,6 +22,30 @@
             "cost_output":0.000005,
             "cost_fixed":0,
             "fixed_size":0
+        },
+
+        "mistral_7B":
+        {
+            "cost_input":0.0000002,
+            "cost_output":0.000005,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+
+        "llama2_7B":
+        {
+            "cost_input":0.0000002,
+            "cost_output":0.000005,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+        
+        "llama2_70B":
+        {
+            "cost_input":0.0000007,
+            "cost_output":0.000007,
+            "cost_fixed":0,
+            "fixed_size":0
         }
             
     }, 
