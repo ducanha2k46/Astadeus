@@ -1,11 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='FrugalGPT',
+    name='Astadeus',
     version='0.0.1',
-    author='Lingjiao Chen, Matei Zaharia, and James Zou',
-    author_email='lingjiao@stanford.edu',
-    description='The FrugalGPT library',
+    description='The Astadeus library',
     packages=find_packages(),
     install_requires=[
         'numpy',
