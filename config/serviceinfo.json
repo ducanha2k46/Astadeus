@@ -2,40 +2,40 @@
     "textsynth":
     {   "gptneox_20B":
         {
-            "cost_input":0.0000014,
-            "cost_output":0.000035,
+            "cost_input":0.0000032,
+            "cost_output":0.000070,
             "cost_fixed":0,
             "fixed_size":0
         },
         
         "fairseq_gpt_13B":
         {
-            "cost_input":0.0000006,
-            "cost_output":0.000015,
+            "cost_input":0.0000027,
+            "cost_output":0.000036,
             "cost_fixed":0,
             "fixed_size":0
         },
         
         "gptj_6B":
         {
-            "cost_input":0.0000002,
-            "cost_output":0.000005,
+            "cost_input":0.0000023,
+            "cost_output":0.000032,
             "cost_fixed":0,
             "fixed_size":0
         },
 
         "mistral_7B":
         {
-            "cost_input":0.0000002,
-            "cost_output":0.000005,
+            "cost_input":0.0000021,
+            "cost_output":0.000030,
             "cost_fixed":0,
             "fixed_size":0
         },
 
         "llama2_7B":
         {
-            "cost_input":0.0000002,
-            "cost_output":0.000005,
+            "cost_input":0.0000024,
+            "cost_output":0.000035,
             "cost_fixed":0,
             "fixed_size":0
         },
@@ -226,3 +226,5 @@
                     
     }                
 }
+
+
