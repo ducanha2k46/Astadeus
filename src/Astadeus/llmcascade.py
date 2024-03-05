@@ -106,9 +106,11 @@ class LLMCascade(object):
             if(service_name==None):
                 break
             res = MyLLMEngine.get_completion(query=query,service_name=service_name,genparams=genparams)
+            print("Response:")
+            print(res)
             cost += MyLLMEngine.get_cost()
             score = self.MyScores[service_name].get_score(scorer_text(query+res))
-            #print("score and score thres:",service_name,score,score_thres)
+            print("score and score thres:",service_name,score,score_thres)
             if(score>1-score_thres):
                 break
         self.cost = cost
